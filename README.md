@@ -1,6 +1,6 @@
 # GravTesseroid
 ## About
-GravTesseroid is a collection of matlab scripts for modeling the gravitational potential of a tesseroid and its first and second order derivatives. It is inspired by Uieda et al.(2016) ([C language code](https://github.com/leouieda/tesseroids)) and Heck & Seitz (2007) and Grombein et al.(2013).
+GravTesseroid is a collection of matlab scripts for modeling the gravitational potential of a tesseroid and its first and second order derivatives. It is inspired by Uieda et al.(2016) ([C language code](https://github.com/leouieda/tesseroids)), Heck & Seitz (2007) and Grombein et al.(2013).
 
 The geometry of a tesseroid is show in Fig.1
 ![a geometry of a tesseroid](https://github.com/QiuLOngjun/GravTesseroid/blob/master/images/Fig01.gif "Fig.1")
@@ -36,7 +36,7 @@ Example: to obtain the approximation error of the gravitational effect when usin
 ```
 Lon Lat ResultValue
 ```
-Lon and Lat are longitude and latitude of the computation point, respectively.
+Lon and Lat are longitude and latitude of the computation point, respectively. These data are stored in .mat files.
 
 ### Data Displays
 The computed data are visualized using the MATLAB scripts. For example the script Fig3_plotting.m visulizes the relaiton between the approximation errors and the latitude of the computation point in terms of GLQ, TSE and PA methods. The data required by the drawing code are loaded from .mat files (that are computed by scripts like A0X_xxx.m).
