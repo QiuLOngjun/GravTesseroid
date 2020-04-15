@@ -15,7 +15,7 @@ The first version v1.0 mainly contains fundamental functions for modeling the gr
 ### List of functions 
 All subfunctions required are in the folder /private. For instance, the GLQ_tess_g3.m, Taylor_tess_g3.m and prism_grav_vector.m are functions that calculate the gravitational attraction of a tesseroid on one computation point using the 3D GLQ, TSE, and PA, respectively.
 
-The Pf_GLQ_grav.m, Pf_Taylor_grav.m and Pt_Prism_grav.m are their counterparts of parallel computing using the parfor loop of MATLAB and call for the GLQ_tess_g3.m, Taylor_tess_g3.m and prism_grav_vector.m, respectively. 
+The Pf_GLQ_grav.m, Pf_Taylor_grav.m and Pt_Prism_grav.m are their counterparts of parallel computing using the parfor loop of MATLAB and call the functions GLQ_tess_g3.m, Taylor_tess_g3.m and prism_grav_vector.m, respectively. 
 
 ### tesseroid model file format
 The input model file is a text fiel that can be read using function importdata(), and each line describe one tesseroid in such format:
